@@ -31,10 +31,10 @@ function Home() {
   return (
     <>
       <body className="login-imagem-body" style={{
-        backgroundImage: 'url(https://cdn.falauniversidades.com.br/wp-content/uploads/2020/02/20100140/netflix-1.jpg)',
+        backgroundImage: 'url(https://criadoresid.com/wp-content/uploads/2017/06/netflix-interativo.jpg)',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        height: '120vh',
+        height: '100vh',
         width: '100%',
         zIndex: 1,
       }}>
@@ -53,11 +53,11 @@ function Home() {
         }}>
 
         <div className="login-container" style={{
-          padding: '10px',
-          zIndex: 10,
+          padding: '5px',
+          zIndex: 5,
           position: 'relative',
-          maxWidth: '400px',
-          height: '370px',
+          maxWidth: '350px',
+          height: '300px',
           left: '50%',
           top: '25%',
           backgroundColor: 'rgba(0,0,0, 0.8)',
@@ -80,17 +80,7 @@ function Home() {
               </div>
             </form>
 
-            <div className="support-container">
-              <div className="login-remember">
-                <span><input type="checkbox" style={{
-                  margin: '0',
-                  padding: '0',
-                  height: '13px'
-                }} /></span>
-               
-              </div>
-             
-            </div>
+           
           </div>
         </div>
                 </div>
