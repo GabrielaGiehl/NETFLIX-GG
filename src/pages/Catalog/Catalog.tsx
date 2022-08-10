@@ -5,6 +5,7 @@ import Header from '../../components/molecules/Header'
 import MovieInterface, {SimpleMovieInterface} from '../../models/interfaces/Movie'
 import HighlightMovie from '../../components/molecules/HighlightMovie'
 
+
 function Catalog() {
   const [popularMovies, setPopularMovies] = useState<SimpleMovieInterface[]>([])
   const [topRatedMovies, setTopRatedMovies] = useState<SimpleMovieInterface[]>([])
@@ -55,7 +56,10 @@ function Catalog() {
           })
           setLatestMovies(movieImgs)
         })
+
+        
     }
+
 
 
     searchPopular()

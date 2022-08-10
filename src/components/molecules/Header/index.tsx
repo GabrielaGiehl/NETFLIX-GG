@@ -24,7 +24,7 @@ function Header({}) {
     }}>
 
             <img className="header-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="netflix"></img>
-
+            
             <img className="header-logo-login" src="https://pbs.twimg.com/profile_images/1356333120992149505/-qvakEK7_400x400.jpg"></img>
         </div>
     </>

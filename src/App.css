@@ -135,10 +135,28 @@ body {
   transition: ease .2s
 }
 
+.botao-curtir {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #f3f3f3;
+  display: flex;
+  padding: 5px 5px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: ease .2s
+}
+
 .botao-banner:hover{
   background-color: #a19f9f;
   transition: ease .2s;
 }
+
+    
+    
 
 .texto-banner{
   display: flex;

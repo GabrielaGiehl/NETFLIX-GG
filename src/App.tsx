@@ -11,6 +11,7 @@ import Home from './pages/Login/Home';
 import Catalog from './pages/Catalog/Catalog';
 import Movie from './pages/Movie/Movie';
 
+
 function App() {
 
   return (

@@ -30,10 +30,10 @@ function Movie() {
 
   return <>
     <body style={{
-      backgroundImage: 'url(https://raw.githubusercontent.com/Larissakich/netflix_login/main/Netflix%20Login/assets/img/background.jpg)',
+      backgroundImage: 'url(https://tm.ibxk.com.br/2021/09/17/17030745386001.jpg?ims=1120x420)',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
-      height: '99vh',
+      height: '100vh',
       width: '100%',
       zIndex: 1,
     }}>
